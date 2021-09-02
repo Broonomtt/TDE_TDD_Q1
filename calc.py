@@ -4,6 +4,12 @@ def soma(n1, n2):
   else:
     return None
     
+def sub(n3, n4):
+  if num(n3) and num(n4):
+    return float(n3) - float(n4)
+  else:
+    return None    
+    
 def num(s):
   try:
     float(s)
