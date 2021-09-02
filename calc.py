@@ -13,6 +13,6 @@ def sub(n3, n4):
 def num(s):
   try:
     float(s)
-      return True
+    return True
   except ValueError:
-      return False
+    return False
